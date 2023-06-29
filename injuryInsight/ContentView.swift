@@ -23,7 +23,7 @@ struct ContentView: View {
                     
                 VStack {
                     
-                    Image("best logo")
+                    Image("final final logo")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(20)
@@ -34,12 +34,12 @@ struct ContentView: View {
                     
                     
                     Text("Injury")
-                        .font(.largeTitle)
+                        .font(.custom("norwester", size: 45))
                         .fontWeight(.heavy)
                         .foregroundColor(Color(red: 0.15, green: 0.21, blue: 0.31))
                         .multilineTextAlignment(.center)
                     Text("Insight")
-                        .font(.largeTitle)
+                        .font(.custom("norwester", size: 45))
                         .fontWeight(.heavy)
                         .foregroundColor(Color(red: 0.15, green: 0.21, blue: 0.31))
                         .multilineTextAlignment(.center)
